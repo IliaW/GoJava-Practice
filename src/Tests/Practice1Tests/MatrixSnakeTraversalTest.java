@@ -12,8 +12,13 @@ public class MatrixSnakeTraversalTest {
     @Test
     public void testPrint() throws Exception {
 
-        int[][] mas = {{1, 2,  },
-                {3, 4, },};
-        mst.print(mas);
+        int[][] array = {
+                {1, 2,},
+                {3, 4,},
+        };
+        mst.print(array);
+        int[] expected = {1, 3, 4, 2,};
+
+        assertEquals(array, expected);
     }
 }

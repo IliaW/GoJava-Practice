@@ -10,6 +10,7 @@ package Practice1;
 //        [1, 4, 7, 8, 5, 2, 3, 6, 9]
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class MatrixSnakeTraversal {
@@ -40,6 +41,7 @@ public class MatrixSnakeTraversal {
         {
             ret[i] = snake.get(i).intValue();
         }
+
         return ret;
     }
 }
